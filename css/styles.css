@@ -129,3 +129,9 @@ background-image: url('../img/farm-2.jpg')
     font-size: 2em;
     text-shadow: 1px 1px 5px #0a0a0a;
 }
+
+.required::after {
+    content: '*';
+    color: red;
+    font-size: 2rem;
+}
